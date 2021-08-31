@@ -33,7 +33,7 @@ Students will use JavaScript in an MVC pattern in order to create their own vend
 Suggestions
 Create a Class
 Create a new Class for your vending machine items.
-
+```javascript
 export default class Snack{
     constructor (name, price){
         this.name = name, 
@@ -41,12 +41,14 @@ export default class Snack{
         ...
     }
 }
+```
 Note: You need not have every property or member in this class in your classes, and likewise, you may include additional properties not shown above.
 
 Create Instances
 Create at least one instance of a snack in your AppState, ex:
-
+```javascript
 snacks = [new Snack('Mountain Sprite', 2.50), new Snack('Root Dew', 5.75)];
+```
 Create a Controller and Service
 Add your business logic and GET RICH by manipulating the DOM!
 
