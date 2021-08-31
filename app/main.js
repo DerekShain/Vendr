@@ -1,7 +1,9 @@
-import ValuesController from "./Controllers/ValuesController.js";
+import CandiesController from "./Controllers/CandiesController.js";
+import { MoneyController } from "./Controllers/MoneyController.js";
 
 class App {
-  valuesController = new ValuesController();
+  candyController = new CandiesController();
+  moneyController = new MoneyController();
 }
 
 window["app"] = new App();

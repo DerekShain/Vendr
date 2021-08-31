@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style/main.css">
     <link rel="stylesheet" href="assets/style/style.css">
     <title>Vendr</title>
@@ -21,12 +20,31 @@
             </a>
         </nav>
     </header>
-    <main class="container">
-        <div id="app"></div>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card">
+                        <h3 id="">Twix <img src="https://target.scene7.com/is/image/Target/GUEST_1e4be53a-a009-44c3-8ee9-42a5c06fb6c0?wid=488&hei=488&fmt=pjpeg" height="95"> Price $1.00 <button class="btn shadow">Add to cart</button></h3>
+                        <h3>Jerky <img src="https://target.scene7.com/is/image/Target/GUEST_a9430a42-1564-41d2-8262-eba59f386d41?wid=488&hei=488&fmt=pjpeg" height = "55"> Price $1.50 <button class="btn shadow">Add to cart</button></h3>
+                        <h3>Chips<img src="https://cdn11.bigcommerce.com/s-tcph8l6/images/stencil/1280x1280/products/197/4246/6fedec81c8b7c62e35fc03270099453baaa56c51__29905.1622130544.jpg?c=2" height = "55"> Price $0.75 <button class="btn shadow">Add to cart</button></h3>
+                        <h3>Aero <img src="https://cdn.shopify.com/s/files/1/1341/1521/products/C3345_a77be2d9-75ed-4ef8-8473-00c667ebafa4_800x.jpg?v=1617820374" height = "55"> Price $0.85 <button class="btn shadow">Add to cart</button></h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <h3 id="cart">Cart Total</h3>
+                        <h3 id="money">Current Money Total</h3>
+                        <button class="btn" type="submit" onclick="app.moneyController.addMoney()">Add money</button>
+                        <button class="btn" type="submit" onclick="purchase()">Purchase</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="bg-dark text-light">
         <div class="text-center">
-            <p><small>Made with love by Codeworks</small></p>
+            <p><small>Hungry yet?</small></p>
         </div>
     </footer>
 
