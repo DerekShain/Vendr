@@ -1,6 +1,6 @@
 Vendr
 ============
-
+<!-- 
 ### Get Started
 
 ```terminal
@@ -17,20 +17,22 @@ Fill in your AuthConfig with keys from [Auth0](https://auth0.com/)
 export const domain = '' 
 export const clientId = '' 
 export const audience = '' 
-```
+``` -->
 
+### Vendr
 
-Vendr
 Student will build a Vending machine application using the MVC design pattern and Encapsulation
 
 Vendr
 
 Ever wonder what life might be like owning a vending machine? Wonder no more!
 
-Goals
+## Goals
+
 Students will use JavaScript in an MVC pattern in order to create their own vending machine. In order to create their vending machine, students will utilize a Model, Service, and Controller to manipulate their ProxyState data.
 
-Suggestions
+## Suggestions
+
 Create a Class
 Create a new Class for your vending machine items.
 ```javascript
@@ -44,7 +46,8 @@ export default class Snack{
 ```
 Note: You need not have every property or member in this class in your classes, and likewise, you may include additional properties not shown above.
 
-Create Instances
+## Create Instances 
+
 Create at least one instance of a snack in your AppState, ex:
 ```javascript
 snacks = [new Snack('Mountain Sprite', 2.50), new Snack('Root Dew', 5.75)];
